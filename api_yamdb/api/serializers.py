@@ -1,9 +1,7 @@
 import datetime as dt
 
-from django.db.models import Avg
 from rest_framework import serializers
 from rest_framework.relations import SlugRelatedField
-
 from reviews.models import Category, Comments, Genre, Review, Title, User
 
 
@@ -73,12 +71,6 @@ class TitleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Title
         fields = '__all__'
-
-    def get_rating(self, obj):
-        """Получение рейтинга произведения, при его наличии."""
-        rating = obj.reviews.all().aggregate(Avg('score')).get('score__avg')
-        if rating:
-            return int(rating)
 
 
 class PostTitleSerializer(TitleSerializer):
