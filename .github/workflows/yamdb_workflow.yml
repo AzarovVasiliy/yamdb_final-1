@@ -58,6 +58,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
+          passphrase:
           script: |
             sudo docker pull denielmay/yamdb_final
             sudo docker stop $(sudo docker ps -a -q)
