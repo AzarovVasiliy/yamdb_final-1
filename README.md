@@ -1,5 +1,4 @@
-[![Django-app workflow](https://github.com/AxelVonReems/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/AxelVonReems/yamdb_final/actions/workflows/yamdb_workflow.yml)
-
+[![Django-app workflow](https://github.com/DenielMay/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/DenielMay/yamdb_final/actions/workflows/yamdb_workflow.yml)
 # Проект YaMDb
 
 API для сервиса YaMDb - сбор отзывов пользователей на книги, фильмы и музыку.
@@ -12,6 +11,7 @@ API для сервиса YaMDb - сбор отзывов пользовател
 1) Просмотр произведений (кино, музыка, книги), которые подразделяются по жанрам и категориям..
 2) Возможность оставлять отзывы на произведения и ставить им оценки, на основе которых построена система рейтингов.
 3) Комментирование оставленных отзывов.
+
 
 Проект разработан командой из трех человек с использованием Git в рамках учебного курса Яндекс.Практикум.
 
