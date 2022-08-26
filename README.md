@@ -1,4 +1,7 @@
 [![Django-app workflow](https://github.com/DenielMay/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/DenielMay/yamdb_final/actions/workflows/yamdb_workflow.yml)
+
+84.201.178.236/redoc
+
 # Проект YaMDb
 
 API для сервиса YaMDb - сбор отзывов пользователей на книги, фильмы и музыку.
