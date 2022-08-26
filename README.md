@@ -23,7 +23,6 @@ Django 2.2.16
 Django REST Framework 3.12.4
 Django REST Framework simplejwt 5.1.0
 
-
 ## Как запустить проект
 
 Клонировать репозиторий и перейти в него в командной строке:
